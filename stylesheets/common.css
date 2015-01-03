@@ -1,0 +1,248 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+	background: #8ba8c4;
+	color: #ffffff;
+}
+textarea{
+	font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+	color: #164474;
+	font-size: 26px;
+	font-weight: bold;
+	padding-top: 20px;
+}
+h2{
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: bold;
+}
+a{
+	color: #234b7c;
+	text-decoration: none;
+}
+a:hover{
+	color: #234b7c;
+	text-decoration: underline;
+}
+a:visited{
+	color: #234b7c;
+}
+.header{
+	height: 120px;
+	width: 100%;
+	background-image: url(../images/header-bg.png);
+	text-align: center;
+}
+.header-content{
+	width: 980px;
+	height: 120px;
+	text-align: left;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+.top-menu{
+	height: 10px;
+	width: 100%;
+	text-align: center;
+	background: #ffffff;
+}
+.top-menu-content{
+	width: 980px;
+	height: 10px;
+	text-align: left;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 99;
+}
+.top-menu-connections{
+	height: 56px;
+	width: 273px;
+	background-image: url(../images/top-menu.png);
+	position: absolute;
+	top: 10px;
+	left: 590px;
+}
+
+.tabs{
+	height: 20px;
+	position: absolute;
+	bottom: 0px;
+	left: 250px;
+}
+.tabs ul{
+	margin: 0px;
+	padding: 0px;
+	line-height: 20px;
+	white-space: nowrap;
+}
+.tabs li{
+	list-style-type: none;
+	display: inline;
+}
+.tabs a{
+	font-family: Arial;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 16px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.tabs a:hover{
+	color: #000000;
+	background: url(../images/tab-left.png) left top no-repeat;
+	font-size: 16px;
+}
+.tabs a:hover span{
+	background: #ffffff url(../images/tab-right.png) right top no-repeat;
+	padding-right: 5px;
+	color: #000000;
+}
+.tabs a:visited{
+	color: #ffffff;
+	font-size: 16px;
+}
+.tabs-current{
+	background: url(../images/tab-left.png) left top no-repeat;
+	font-family: Arial;
+	color: #000000;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 16px;
+	padding-left: 5px;
+}
+.tab-right-corner{
+	background: #ffffff url(../images/tab-right.png) right top no-repeat;
+	padding-right: 5px;
+}
+.tabbar{
+	height: 15px;
+	width: 100%;
+	background: #ffffff;
+	text-align: center;
+}
+
+.topbar{
+	height: 155px;
+	width: 100%;
+	background: #ffffff;
+	text-align: center;
+}
+.topbar-content{
+	width: 980px;
+	height: 155px;
+	text-align: left;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+.topbar-image1{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 100;
+}
+
+.spacer{
+	height: 88px;
+	width: 100%;
+	text-align: center;
+}
+.spacer-content{
+	width: 980px;
+	height: 88px;
+	text-align: left;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -65px;
+}
+
+.content{
+	width: 100%;
+	text-align: center;
+}
+.columns{
+	width: 980px;
+	text-align: left;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.convert-form{
+	width: 278px;
+	height: 431px;
+	text-align: left;
+	position: absolute;
+	top: 0px;
+	left: 590px;
+	background: url(../images/form-bg.png) no-repeat;
+	z-index: 2;
+}
+.convert-form-content{
+	text-align: left;
+	position: relative;
+	padding: 20px;
+}
+.convert-title{
+	width: 175px;
+	height: 63px;
+	text-align: left;
+	position: absolute;
+	top: -31px;
+	left: 720px;
+	z-index: 3;
+}
+.marquee{
+	color: #ffffff;
+	font-weight: bold;
+}
+
+.popup{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	vertical-align: middle;
+	z-index: 100;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background: url(../images/popup-bg.png) repeat;
+	display: none;
+}
+.popup-content{
+	width: 200px;
+	height: 196px;
+	text-align: left;
+	position: relative;
+	margin-top: 15%;
+	margin-left: auto;
+	margin-right: auto;
+	background: url(../images/currency-chooser.png) no-repeat;
+	z-index: 101;
+}
+.legal{
+	width: 100%;
+	text-align: center;
+	font-size: smaller;
+}
+.legal a{
+	color: #ffffff;
+	text-decoration: none;
+}
+.legal a:hover{
+	color: #ffffff;
+	text-decoration: underline;
+}
+.legal a:visited{
+	color: #ffffff;
+}
